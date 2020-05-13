@@ -25,7 +25,7 @@ width = image_primary.GetWidth()
 height = image_primary.GetHeight()
 print "width: " + str(width) + ", height: " + str(height)
 
-# Pixel array
+# Pixel array (NumPy array)
 image_array = image_primary.GetData()
 
 # Save images
